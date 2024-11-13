@@ -1,0 +1,5 @@
+streamlit
+python-dotenv
+Pillow
+google-generativeai
+audio-recorder-streamlit
