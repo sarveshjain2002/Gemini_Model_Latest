@@ -16,7 +16,7 @@ load_dotenv()
 # Define safety settings to allow for less restrictive filtering
 safety_settings = {
     HarmCategory.HARM_CATEGORY_HATE_SPEECH: HarmBlockThreshold.BLOCK_MEDIUM_AND_ABOVE,
-    HarmCategory.HARM_CATEGORY_VIOLENCE: HarmBlockThreshold.BLOCK_MEDIUM_AND_ABOVE,
+    # HarmCategory.HARM_CATEGORY_VIOLENCE: HarmBlockThreshold.BLOCK_MEDIUM_AND_ABOVE,
     HarmCategory.HARM_CATEGORY_HARASSMENT: HarmBlockThreshold.BLOCK_MEDIUM_AND_ABOVE,
 }
 
